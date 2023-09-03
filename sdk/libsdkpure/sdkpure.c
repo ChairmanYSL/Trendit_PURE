@@ -1426,7 +1426,7 @@ s32 sdkPureDifferEMVBase()
 
 	emvbase_avl_deletetag(EMVTAG_TSI);	//Pure not support TSI
 	emvbase_avl_createsettagvalue(EMVTAG_PURETTPI, "\x3E\x02\xE0\x00\xF9", 5);
-	emvbase_avl_createsettagvalue(EMVTAG_PUREKernelCap, "\x36\x00\xF0\x4B\xF9", 5);
+	emvbase_avl_createsettagvalue(EMVTAG_PUREKernelCap, "\x36\x00\x40\x03\xF9", 5);
 	emvbase_avl_createsettagvalue(EMVTAG_TVR, "\x00\x00\x00\x00\x00", 5);
 	emvbase_avl_createsettagvalue(EMVTAG_SZZTICS, "\xF4\xF0\xF0\xFC\xAF\xFE\xA0", 7);
 	emvbase_avl_deletetag(EMVTAG_PUREMTOL);
